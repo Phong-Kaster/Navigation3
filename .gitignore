@@ -1,22 +1,17 @@
+# --- Replace your .idea section with this ---
+.idea/
+
+# --- Keep these for general Android safety ---
 *.iml
 .gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
+local.properties
 /build
 /captures
 .externalNativeBuild
 .cxx
-local.properties
-/.kotlin/errors/errors-1766636696364.log
-/.idea/vcs.xml
-/.kotlin/errors/errors-1766636735898.log
-/.kotlin/errors/errors-1766636749105.log
-/.kotlin/errors/errors-1766636935945.log
-/.idea/gradle.xml
-/.idea/compiler.xml
+
+# --- Replace the specific .log files with a wildcard ---
+**/.kotlin/errors/*.log
+
+# --- System files ---
+.DS_Store
